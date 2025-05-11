@@ -1,12 +1,55 @@
-# React + Vite
+# 📦 Component Library SDK — Internship Task 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my submission for **Task 2** of the Frontend Developer Internship.
 
-Currently, two official plugins are available:
+A reusable UI component library built from scratch using **ReactJS** and **TailwindCSS** — without any external UI libraries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Components Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Component | Description |
+|----------|-------------|
+| `Button` | Reusable button with `variant` prop (primary, secondary, danger) |
+| `Input` | Labeled input with full state control |
+| `Card` | Layout box with title & shadow |
+| `Avatar` | User profile image + name |
+| `Badge` | Status pill (color-based) |
+
+---
+
+## 🧪 Demo Pages
+
+### 1. `ProfilePage.jsx`
+
+Uses: `Card`, `Avatar`, `Input`, `Button`
+
+> A user profile form with editable fields and profile preview.
+
+### 2. `ProductPage.jsx`
+
+Uses: `Card`, `Badge`, `Button`
+
+> A product listing UI that shows product info with status badges and action buttons.
+
+---
+
+## 🧠 How to Use the Components
+
+### Button
+
+```jsx
+<Button variant="primary" onClick={handleClick}>
+  Click Me
+</Button>
+```
+---
+
+## Input
+```jsx
+<Input
+  label="Email"
+  name="email"
+  value={email}
+  onChange={handleChange}
+/>
