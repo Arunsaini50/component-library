@@ -101,4 +101,4 @@ component-library/
 ---
 ## 🙋 Author
 Arun Saini
-GitHub: @Arunsaini50
+GitHub: [@Arunsaini50](https://github.com/Arunsaini50)
