@@ -53,3 +53,52 @@ Uses: `Card`, `Badge`, `Button`
   value={email}
   onChange={handleChange}
 />
+```
+---
+## Card
+```jsx
+<Card title="User Profile">
+  <p>This is inside the card</p>
+</Card>
+```
+---
+## 💻 How to Run the Demo
+
+git clone https://github.com/your-username/component-library.git
+cd component-library
+npm install
+npm run dev
+
+---
+## 📁 Folder Structure
+component-library/
+├── components/
+│   ├── Button.jsx
+│   ├── Input.jsx
+│   ├── Card.jsx
+│   ├── Avatar.jsx
+│   └── Badge.jsx
+│
+├── demos/
+│   ├── ProfilePage.jsx
+│   └── Product.jsx
+│
+├── App.jsx
+└── README.md
+
+---
+## 📦 Tech Stack
+⚛️ ReactJS
+
+🎨 TailwindCSS
+
+❌ No UI libraries used
+
+✅ Max 200 lines/component
+
+🧼 DRY, clean and reusable code
+
+---
+## 🙋 Author
+Arun Saini
+GitHub: @Arunsaini50
